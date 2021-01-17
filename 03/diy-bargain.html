@@ -25,5 +25,14 @@
 		</ul>
 		<div id="showResult"></div>	
 	</div>	
+	<script>
+		function showPrice() {
+			var originPrice = document.querySelector("#oPrice").value;
+			var rate = document.querySelector("#rate").value;
+			var salePrice = originPrice * (rate / 100);
+			var price = originPrice - salePrice;
+			document.getElementById("showResult").innerHTML = '할인된 가격은 '+ price +'원입니다.';
+		}
+	</script>
 </body>
 </html>

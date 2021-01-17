@@ -10,5 +10,15 @@
 <body>
 	<h1>구구단</h1>
 
+	<script>
+		for(var i=1; i<=9; i++) {
+			document.write("<div>");
+			document.write("<h3>"+i+"단");
+			for (var j=1; j<=9; j++) {
+				document.write("<p>"+ i +" X "+ j +" = "+ i*j +"</p>");
+			}
+			document.write("</div>");
+		}
+	</script>
 </body>
 </html>
