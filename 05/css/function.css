@@ -22,4 +22,7 @@ li {
 	margin:30px auto;
 	border:2px solid #ccc;
 	border-radius:15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
